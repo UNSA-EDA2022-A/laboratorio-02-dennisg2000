@@ -25,7 +25,7 @@ public class Exercise1 {
 			return true;		// 3 5 7  9 
 		}				//1 4 9 16 25
 		if(ind>numero) {		//dependiendo de si ind llega a tomar al valor del numero a verificar
-			return false;		//entonces sera un cuadrado perfecto
+			return false;		//entonces este sera un cuadrado perfecto
 		}
 		return esCuadradoPerfecto(numero);
 	}
